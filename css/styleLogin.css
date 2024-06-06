@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans',sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #2b2bdc;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    max-width: 850px;
+    background: #ea5200;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgb(0, 0, 0);
+}
+
+.login{
+    width: 400px;
+}
+
+form {
+    width: 250px;
+    margin: 60px auto;
+}
+h1{
+    margin: 20px;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+hr {
+    border-top: 2px solid #2b2bdc;
+}
+
+p{
+    text-align: center;
+    margin: 10px;
+}
+
+.logo img{
+    width: 250px;
+    border-radius: 15px;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+form label{
+    margin-top: 8px;
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px;
+}
+
+input{
+    width: 100%;
+    margin: 2px;
+    outline: none;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 8px;
+    width: 252px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+    background :#2b2bdc;
+}
+
+button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+button:hover{
+    background:rgb(87, 87, 183);
+}
+
+button a:hover{
+    text-decoration: solid;
+}
+
+p a {
+    justify-content: space-between;
+}
+
+
+@media(max-width: 880px){
+    .container {
+        width: 100%;
+        max-width: 750px;
+        margin-left: 20px;
+        margin-right: 20px;
+
+    }
+    form {
+        width: 100%;
+        margin: 20px auto;
+
+    }
+
+    .login{
+        width: 400px;
+        margin: 20px;
+    }
+
+    button{
+        width: 100%;
+    }
+
+    .logo img{
+        width: 100%;
+    }
+}

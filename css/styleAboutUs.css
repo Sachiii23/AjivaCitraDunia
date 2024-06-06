@@ -1,0 +1,101 @@
+body{
+  background-color: #2b2bdc;
+  color: #ffff;
+  margin: 0%;
+  padding: 0%;
+  font-family: 'Open Sans',sans-serif;
+}
+
+.wrapper {
+  width: 1100px;
+  height: 80px;
+  margin: auto;
+  position: relative;
+}
+
+.logo a {
+  font-size: 50px;
+  font-family: 'Courier Prime';
+  float: left;
+  color: #2b2bdc;
+  text-decoration: none;
+}
+
+.menu {
+  float: right;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  margin: auto;
+  line-height: 80px;
+  position: sticky;
+  position: -webkit-sticky;
+  background: #ea5200;
+  top: 0;
+  font-family: 'Open Sans',sans-serif;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 16px 0px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+img {
+  float: right;
+  margin-left: 10px;
+}
+h3 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+figure {
+  width: 300px;
+  height: 200px;
+  display: inline-block;
+  margin-bottom: 5;
+  margin: 0 10px 10px 0;
+  text-align: center;
+}
+
+figure img {
+  width: 300px;
+  height: 200px;
+}
+
+figcaption {
+  margin-top: 15px;
+  display: inline-block;
+  margin-left: 10px;
+  width: calc(100% - 150px);
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+}
